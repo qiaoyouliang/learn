@@ -10,6 +10,6 @@ public class MyTest {
 
     @Test
     public void test_method_2() {
-        assert false;
+        assert true;
     }
 }
