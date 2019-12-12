@@ -5,11 +5,13 @@ public class MyTest {
     @Test
     public void test_method_1() {
         Demo d = new Demo();
-        d.DoSomething(true);
+        d.doSomething(true);
     }
 
     @Test
     public void test_method_2() {
-        assert false;
+        Demo d = new Demo();
+        boolean value = d.businessCheck("Test");
+        Assert.assertEquals(false,value);
     }
 }
