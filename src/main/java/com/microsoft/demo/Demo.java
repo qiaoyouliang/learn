@@ -9,11 +9,4 @@ public class Demo {
         System.out.println("I am not covered");
     }
 
-    public boolean businessCheck(String flag){
-        if(flag.equals("dev")){
-            return true;
-        }else{
-            return false;
-        }
-    }
 }
