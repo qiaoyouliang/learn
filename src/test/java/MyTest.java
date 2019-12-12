@@ -12,6 +12,6 @@ public class MyTest {
     public void test_method_2() {
         Demo d = new Demo();
         boolean value = d.businessCheck("Test");
-        Assert.assertEquals(false,value);
+        assert false;
     }
 }
