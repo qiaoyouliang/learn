@@ -5,6 +5,7 @@ public class MyTest {
     @Test
     public void test_method_1() {
         Demo d = new Demo();
+
         d.doSomething(true);
     }
 
